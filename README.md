@@ -1,66 +1,57 @@
-# olist-sql-analysis
-Dataset
+# Olist SQL Analysis
 
-Dataset used: Olist Brazilian E-commerce dataset
+## Dataset
+
+Dataset used: **Olist Brazilian E-commerce dataset**
 
 It contains information about:
 
-Customers
+- Customers
+- Orders
+- Order items
+- Payments
+- Products
+- Sellers
+- Reviews
+- Delivery information
 
-Orders
+- ## SQL Skills Used
 
-Order items
+During this project the following SQL concepts and techniques were used:
 
-Payments
+- SELECT statements
+- INNER JOIN
+- GROUP BY
+- HAVING
+- ORDER BY
+- LIMIT
 
-Products
+### Aggregate Functions
+- COUNT()
+- SUM()
+- AVG()
 
-Sellers
+### Subqueries
+- Nested subqueries
+- Correlated subqueries
 
-Reviews
+### Common Table Expressions (CTE)
+- WITH clause for complex queries
 
-Delivery information
+### Window Functions
+- ROW_NUMBER()
 
-SQL Skills Used
+### Conditional Logic
+- CASE WHEN statements
 
-In this project the following SQL concepts were used:
+### Filtering Techniques
+- WHERE conditions
+- EXISTS / NOT EXISTS
 
-SELECT statements
+### Date Functions
+- STRFTIME()
+- JULIANDAY()
 
-INNER JOIN
-
-GROUP BY
-
-HAVING
-
-ORDER BY
-
-LIMIT
-
-Aggregate functions
-
-COUNT
-
-SUM
-
-AVG
-
-Subqueries
-
-Common Table Expressions (CTE)
-
-Window Functions
-
-ROW_NUMBER()
-
-CASE statements
-
-EXISTS / NOT EXISTS
-
-Date functions
-
-STRFTIME
-
-JULIANDAY
-
-NULL value analysis
+### Data Quality Analysis
+- NULL value detection
+- Missing data checks
